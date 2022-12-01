@@ -1,0 +1,35 @@
+h1{
+    color: blue;
+}
+
+h1:hover{
+    color: green;
+}
+
+p:active{
+    background-color: lightgray;
+}
+
+a{
+    color: lightgray;
+}
+
+a:visited{
+    color: orange
+}
+
+img:hover{
+    display: none;
+}
+
+li:nth-child(even){
+    color: blue;
+}
+
+li:hover:nth-child(even){
+    color: black;
+}
+
+li:hover:nth-child(odd){
+    color: red;
+}
